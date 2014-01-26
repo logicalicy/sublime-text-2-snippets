@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+\\begin{figure}[H]
+        \\centering
+        \\begin{subfigure}[t]{${1:size}\\textwidth}
+                \\centering
+                \\label{fig:${2:figure_label}}
+                \\caption{${3:caption}}
+        \\end{subfigure}
+        ~
+        \\begin{subfigure}[t]{${4:size}\\textwidth}
+                \\centering
+
+                \\label{fig:${5:figure_label}}
+                \\caption{${0:caption}}
+        \\end{subfigure}
+\\end{figure}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>subfigure</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

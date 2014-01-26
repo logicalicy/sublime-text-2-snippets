@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+\\begin{equation*}
+\\begin{aligned}
+& ${1:equation}\\\
+ \text{where: }
+& ${2:variable} = ${3:description}\\\
+& ${4:variable} = ${5:description}\\\
+\label{eq:${0:label}}
+\end{aligned}
+\end{equation*}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>equation</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,12 @@
+# Copyright (c) Mario Hayashi 2014
+
+Note: instructions below for Mac OSX
+
+Quickstart:
+1. Place .sublime-snippet files in /Users/[username]/Library/Application Support/Sublime Text 2/
+2. Type 'document' and press tab key
+
+Creating your own snippet:
+1. Have a look at one of the .sublime-snippet files
+2. Create one of your with appropriate template and trigger
+3. Place your .sublime-snippet files in /Users/[username]/Library/Application Support/Sublime Text 2/

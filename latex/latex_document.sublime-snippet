@@ -1,0 +1,46 @@
+<snippet>
+	<content><![CDATA[
+\\documentclass{article}
+%Choose output font encoding that supports accented characters used by European languages (e.g. German)
+\\usepackage[T1]{fontenc}
+%Directly input accented and other characters
+\\usepackage[utf8]{inputenc}
+\\usepackage[english]{babel}
+\\usepackage{amsmath}
+\\usepackage{amssymb,amsfonts,textcomp}
+\\usepackage{multicol}
+\\usepackage{array}
+\\usepackage{hhline}
+\\usepackage{graphicx}
+\\usepackage{cite}
+\\usepackage{verbatim}
+\\usepackage{float}
+\\usepackage{epstopdf}
+
+\\setlength{\topmargin}{-.5in}
+\\setlength{\textheight}{9in}
+\\setlength{\oddsidemargin}{.125in}
+\\setlength{\textwidth}{6.25in}
+\\setlength{\parindent}{0cm}
+
+\graphicspath{{gfx/}}
+
+\\title{${4:title}}
+\\author{${3:name}\\\${2:department}\\\${1:college}}
+\\begin{document}
+
+\\maketitle
+
+\\begin{abstract}
+
+\\end{abstract}
+
+\\section{${0:section name}}
+
+\\end{document}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>document</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

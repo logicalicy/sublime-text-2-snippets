@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\\subsubsection{${0:heading}}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>subsubsection</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
